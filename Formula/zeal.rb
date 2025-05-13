@@ -8,8 +8,10 @@ class Zeal < Formula
   
   depends_on "cmake" => :build
   depends_on xcode: :build
-  depends_on "qt@5"
+  depends_on "qt@6"
   depends_on "libarchive"
+  depends_on "vulkan-headers"
+
 
   def install
     # system "git fetch --tags"
