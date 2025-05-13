@@ -13,7 +13,7 @@
     brew tap koraysels/personal
     brew install --HEAD zeal
     ```
-> Brew will automatically install the dependency `qt@5` and `libarchive` for you
+> Brew will automatically install the dependency `qt@6`, `libarchive` and `vulkan-headers` for you
 
 2. Zeal is now available to be run. If you want you can move it to your Applications folder (not necessary if you run it through Spotlight):
 
